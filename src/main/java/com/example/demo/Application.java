@@ -9,7 +9,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run=SpringApplication.run(Application.class, args);
-     
+     // changes on line 12
 		run.close();
 	}
 
